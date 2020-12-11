@@ -16,7 +16,7 @@
 
 `.github/workflows/classroom.yml` Just defines the GitHub workflow (what steps are run during autograding)
 
-Since you have to include the name of the class in a bunch of places, make your life easier by cloning this repo, pulling it to the command line, going to the root of the clone and running these two commands:
+Since you have to include the name of your new class in a bunch of places, make your life easier by cloning this repo, pulling it to the command line, going to the root of the clone and running these two commands:
 
 ```
 MyNewClass=""     # put the name of your new class between the quotes.
