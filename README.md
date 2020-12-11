@@ -3,7 +3,7 @@
    * This setup does not require gradle or maven, which are fun but can be confusing for intro students
    * This setup switches the java version to 12 using hooks in the autograding feature
    * This setup does not create a package, it just compiles and tests a class (teachers: please edit the tests to match your specific class names or use the commands below)
-   * This setup uses autograding to compile a package & run a class, then perform an i/o test
+   * This setup uses autograding to compile & run a class, it tests that the class ran sucessfully, then performs an i/o matching test
    
    
    Contents:
