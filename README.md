@@ -26,4 +26,4 @@ mv HelloWorld.java $MyNewClass.java                                     # Moves 
 
 It will replace every instance of HelloWorld in your repo files with the new class name you put into the `$MyNewClass` variable and then move the class code to `MyNewClass.java` so that you can set up new code for your students.  
 
-I'm mostly just doing this for myself and my collegues, but if I don't know you and you find it useful, please feel free to follow or give me a mention!
+I'm mostly just doing this for myself and my colleagues, but if I don't know you and you find this setup useful, please feel free to follow this repo or give me a mention!
