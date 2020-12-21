@@ -20,9 +20,10 @@ Since you have to include the name of your new class in a bunch of places, make 
 
 ```
 MyNewClass=""     # put the name of your new class between the quotes.
-grep -rlZ 'HelloWorld' . | xargs -0 sed -i 's/HelloWorld/$MyNewClass/g' # Finds every file containing HelloWorld and changes HelloWorld to the value of $MyNewClass
+grep -rlZ 'HelloWorld' . | xargs -0 sed -i "s/HelloWorld/$MyNewClass/g" # Finds every file containing HelloWorld and changes HelloWorld to the value of $MyNewClass
 mv HelloWorld.java $MyNewClass.java                                     # Moves HelloWorld.java to $MyNewClass.java, note you'll need to alter the contents
 ```
+Note: for macOS you can use ` grep -rlZ 'HelloWorld' . | tr \\n \\0 | xargs -0 sed -i '' -e "s/HelloWorld/$MyNewClass/g"`
 
 It will replace every instance of HelloWorld in your repo files with the new class name you put into the `$MyNewClass` variable and then move the class code to `MyNewClass.java` so that you can set up new code for your students.  
 
