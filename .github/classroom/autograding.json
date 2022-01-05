@@ -1,15 +1,5 @@
 {
   "tests": [
-      {
-      "name": "Set up Java 12",
-      "setup": "",
-      "run": "sudo update-java-alternatives -s adoptopenjdk-12-hotspot-amd64",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": null
-    },
     {
       "name": "Java Version",
       "setup": "",
